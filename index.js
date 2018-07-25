@@ -25,3 +25,7 @@ function appendDriver(name) {
 function prependDriver(name) {
   drivers.pop(name)
 }
+
+function removeLastDriver(name) {
+  return drivers.shift(name)
+}
