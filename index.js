@@ -24,5 +24,4 @@ function appendDriver(name) {
 
 function prependDriver(name) {
   drivers.pop(name)
-  return drivers.unshift(name)
 }
